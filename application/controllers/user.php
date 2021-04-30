@@ -11,7 +11,7 @@ class user extends CI_Controller {
 			$this->load->helper('cookie');
 			$this->load->library('form_validation');
 			
-			date_default_timezone_set('Asia/Kolkata');
+			date_default_timezone_set('soudiarab/Kolkata');
 			$this->load->model('users');
 		}
 		
